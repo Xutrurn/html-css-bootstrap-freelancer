@@ -1,0 +1,10 @@
+.debug [class*="col-"] {
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 200px;
+}
+
+.nav_top {
+  background-color: #2c3e50;
+  height: 200px;
+}
