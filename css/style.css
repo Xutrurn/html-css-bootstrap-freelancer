@@ -1,15 +1,37 @@
 .debug [class*="col-"] {
   background-color: lightblue;
   border: 1px solid black;
-  height: 200px;
+  height: 100px;
 }
 
+/* Header Start */
 .nav_top {
+  height: 100px;
   background-color: #2c3e50;
-  height: 150px;
 }
 
 .jumbotron {
+  height: 200px;
   background-color: #1abc9c;
-  height: 400px;
 }
+
+/* Header End */
+/* Main Start */
+#portfolio {
+  height: 750px;
+  background-color: #ffffff;
+}
+
+#about {
+  height: 100px;
+  background-color: #1abc9c;
+}
+
+#contact {
+  height: 100px;
+  background-color: #ffffff;
+}
+
+/* Main EndStart */
+/* Footer Start */
+/* Footer Start */
