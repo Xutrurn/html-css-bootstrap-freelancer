@@ -143,6 +143,14 @@ header {
   padding-bottom: 10px;
 }
 
+#contact textarea{
+  padding-top: 9px;
+}
+
+#contact .btn-send{
+  margin-top: 10px;
+}
+
 ::placeholder {
   color: #2c3e50;
   font-weight: bolder;
@@ -152,6 +160,10 @@ textarea {
   border: none;
   border-bottom: 1px solid #d5d5d5;
   width: 100%;
+}
+
+.btn-send{
+  background-color: #1abc9c;
 }
 
 /* Main End */
