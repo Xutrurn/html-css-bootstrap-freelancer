@@ -55,6 +55,11 @@ header {
 }
 
 /* Jumbotron */
+#jumbotron {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
 .ms_star:before,
 .ms_star:after {
   content: '';
@@ -143,11 +148,11 @@ header {
   padding-bottom: 10px;
 }
 
-#contact textarea{
+#contact textarea {
   padding-top: 9px;
 }
 
-#contact .btn-send{
+#contact .btn-send {
   margin-top: 10px;
 }
 
@@ -162,15 +167,67 @@ textarea {
   width: 100%;
 }
 
-.btn-send{
+.btn-send {
   background-color: #1abc9c;
 }
 
 /* Main End */
 /* Footer Start */
 #footer_top {
-  height: 350px;
+  /* height: 350px; */
   background-color: #3a546d;
+  padding-top: 30px;
+}
+
+address {
+  color: white;
+}
+
+address strong {
+  font-size: 22px;
+}
+
+address p {
+  font-size: 18px;
+}
+
+#footer_top h4, i {
+  color: white;
+}
+
+#footer_top h4{
+  margin-top: 0;
+}
+
+#footer_top i {
+  font-size: 22px;
+}
+
+#footer_top ul{
+  margin-left: 0;
+}
+
+#footer_top a i {
+  border-radius: 50%;
+  border: 1px solid white;
+  line-height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* font-size: 22px; */
+  /* color: white; */
+  /* height: 44px; */
+  /* text-align: center; */
+  /* display: inline-block; */
+}
+
+#footer_top span {
+  color: #1abc9c;
+}
+
+.ms_ptext_descr {
+  font-size: 16px;
 }
 
 #footer_bottom {
